@@ -9,5 +9,5 @@ function fibonacci(n){ // recursive function
 } 
 let n = 7 ; // user input can be taken here 
 let seq = fibonacci(n);
-console.log("The fibonacci sequence until "+ n + " is : " + seq);
+console.log("The fibonacci sequence until "+ n + "th term  is : " + seq);
 
