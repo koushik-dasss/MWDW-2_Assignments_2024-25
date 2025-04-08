@@ -1,0 +1,16 @@
+footer{
+    background: #333;
+    color: white;
+    padding: 20px 0;
+}
+.footer-container{
+    display: flex;
+    justify-content : space-around;
+    text-align: center;
+}
+.legal-links a , .social-media a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-top: 5px;
+}

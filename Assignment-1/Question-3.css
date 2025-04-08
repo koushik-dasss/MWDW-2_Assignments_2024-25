@@ -1,0 +1,31 @@
+.sidebar{
+    width:25%;
+    float:right;
+    padding:20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+.recent-comments{
+    margin-bottom: 20px;
+}
+.recent-comments h3{
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.recent-comments p{
+    font-size: 0.95em;
+    color:#555;
+    margin: 5px 0;
+}
+.mini-gallery h3{
+    width: 80px;
+    height:80px;
+    margin:5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease-in-out;
+}
+.mini-gallery img:hover{
+    transform:scale(1.1);
+}
