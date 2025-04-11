@@ -1,0 +1,26 @@
+<!-- Write a JavaScript program to check whether the given number is:   -->
+<!--  Palindrome Number or Not. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-7</title>
+</head>
+<body>
+    <script>
+    let n = 121; // user input can also be taken 
+    let rev = 0 ; 
+    let num = n ; 
+    while(num!=0){
+        rev = (rev*10)+ (num%10);
+        num = Math.floor(num/10);
+    } 
+    if(rev==n){
+        document.write(n+" is a palindrome number");
+    }else{
+        document.write(n+ " is not a palindrome number");
+    }
+    </script>
+</body>
+</html>
