@@ -1,0 +1,32 @@
+<!-- Write a JavaScript program to check whether the given number is an  -->
+<!-- Armstrong Number or Not. -->
+<!-- TO THE POWER OF NO.  OF  DIGITS IS TO BE DONE [ NOT SPECIFIC TO  CUBES ONLY ] -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-8</title>
+</head>
+<body>
+    <script>
+    let n = 9474 , num =  n ; // can take n as user input also 
+    let number = n ; 
+    let sum = 0 , ctr = 0 ; 
+    while(num!=0){
+        num = Math.floor(num/10);
+        ctr++;
+    }
+    while(number!=0){
+        let digit = number%10 ;
+        sum+=(digit**ctr);
+        number = Math.floor(number/10);
+    }
+    if(sum==n){
+        document.write(n+" is an armstrong number");
+    }else{
+        document.write(n+" is not an armstrong number .");
+    }
+    </script>
+</body>
+</html>
